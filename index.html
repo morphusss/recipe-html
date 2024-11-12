@@ -10,86 +10,88 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; margin-bottom: 2%;}
+    .attribution { font-size: 11px; text-align: center; margin: 2%;}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
+  <main class="main">
+    <section class="container">
     <img class="photo" src="./assets/images/image-omelette.jpeg" alt="omelette image" >
 
     <h1>  Simple Omelette Recipe</h1>
-    <p>  An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+    <p class="text">  An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
       to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
 
     <div class="preparation">
       <h3 class="Prep">Preparation time</h3>
-      <ul class="Prep_table">
-        <li>Total: Approximately 10 minutes</li>
-        <li>Preparation: 5 minutes</li>
-        <li>Cooking: 5 minutes</li>
+      <ul>
+        <li class="table_particle"><span class="bold">Total</span>: Approximately 10 minutes</li>
+        <li class="table_particle"><span class="bold">Preparation</span>: 5 minutes</li>
+        <li class="table_particle"><span class="bold">Cooking</span>: 5 minutes</li>
       </ul>
     </div>
 
     <div class="Ingredients">
       <h2>Ingredients</h2>
       <ul>
-        <li>2-3 large eggs</li>
-        <li>Salt, to taste</li>
-        <li>Pepper, to taste</li>
-        <li>1 tablespoon of butter or oil</li>
-        <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+        <li class="table_particle">2-3 large eggs</li>
+        <li class="table_particle">Salt, to taste</li>
+        <li class="table_particle">Pepper, to taste</li>
+        <li class="table_particle">1 tablespoon of butter or oil</li>
+        <li class="table_particle">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
       </ul>
     </div>
 
-    <hr>
+    <div class="separator"></div>
 
     <div class="Instructions">
       <h2>Instructions</h2>
       <ol>
-        <li>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+        <li class="table_particle"><span class="bold">Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
           You can add a tablespoon of water or milk for a fluffier texture.</li>
-        <li>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.</li>
-        <li>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+        <li class="table_particle"><span class="bold">Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+        <li class="table_particle"><span class="bold">Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
           the eggs evenly coat the surface.</li>
-        <li>Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
+        <li class="table_particle"><span class="bold">Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly runny in the 
           middle, sprinkle your chosen fillings over one half of the omelette</li>
-        <li>Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
+        <li class="table_particle"><span class="bold">Fold and serve</span>: As the omelette continues to cook, carefully lift one edge and fold it over the 
           fillings. Let it cook for another minute, then slide it onto a plate.</li>
-        <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+        <li class="table_particle"><span class="bold">Enjoy</span>: Serve hot, with additional salt and pepper if needed.</li>
       </ol>
     </div>
 
-    <hr>
+    <div class="separator"></div>
 
     <div class="Nutrition">
       <h2>Nutrition</h2>
-      <p>The table below shows nutritional values per serving without the additional fillings.</p>
-      <table>
-        <tr>
-          <th>Calories</th>
-          <th>277kcal</th>
-        </tr>
-        <tr>
-          <th>Carbs</th>
-          <th>0g</th>
-        </tr>
-        <tr>
-          <th>Protein</th>
-          <th>20g</th>
-        </tr>
-        <tr>
-          <th>Fat</th>
-          <th>22g</th>
-        </tr>
-      </table>
+      <p class="text">The table below shows nutritional values per serving without the additional fillings.</p>
+      <div>
+        <div class="separator">
+          <div class="col-1">Calories</div>
+          <div class="col-2">277kcal</div>
+        </div>
+        <div class="separator">
+          <div class="col-1">Carbs</div>
+          <div class="col-2">0g</div>
+        </div>
+        <div class="separator">
+          <div class="col-1">Protein</div>
+          <div class="col-2">20g</div>
+        </div>
+        <div class="separator">
+          <div class="col-1">Fat</div>
+          <div class="col-2">22g</div>
+        </div>
+      </div>
     </div>
 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/morphusss">Morphusss</a>.
     </div>
+  </section>
   </main> 
 </body>
 </html>

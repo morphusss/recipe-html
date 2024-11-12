@@ -1,8 +1,13 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
 body {
     background-color: bisque;
 }
 
-main {
+.main {
     margin-top: 70px;
     margin-bottom: 70px;
     margin-right: 20%;
@@ -11,81 +16,61 @@ main {
     border: 1px solid;
     border-color: white;
     border-radius: 20px;
+    font-family: "Outfit";
+}
+
+.container {
+    margin: 4% 4% 2% 4%;
 }
 
 .photo {
-    max-width: 92%;
-    height: auto;
-    object-fit: contain;
-    margin-top: 4%;
-    margin-left: 4%;
-    margin-right: 4%;
+    max-width: 100%;
     border-radius: 15px;
 }
 
-h1 {
-    margin-left: 4%;
-
+h2 { 
+    color: maroon;
 }
 
-p {
-    margin-left: 5%;
-    margin-right: 6%;
+.text {
     font-size: 14px;
+    padding-left: 3%;
+}
+
+.table_particle {
+    font-size: 14px;
+    padding-bottom: 10px ;
 }
 
 .preparation {
     border-radius: 15px;
-    margin-left: 4%;
-    margin-right: 4%;
-    background-color: lightpink;
-    height: 150px;
+    background-color: rgb(255, 228, 232);
+    height: fit-content;
 }
 
 .Prep {
-    padding-top: 4%;
-    margin-top: 20px;
-    margin-left: 4%;
-    color: blueviolet;
+    padding-top: 1.5%;
+    padding-left: 4%;
+    color: rgb(164, 94, 230);
 }
 
-.Prep_table {
-    margin-right: 4%;
-    margin-top: 2%;
-    font-size: 14px;
-    padding-bottom: 2%;
+.separator {
+    border-bottom: 2px solid rgb(206, 205, 205);
 }
 
-li {
-    margin-top: 2%;
-    margin-left: 4%;
-    margin-right: 6%;
-    font-size: 14px;
+.bold {
+    font-weight: bold;
 }
 
-h2 {
-    margin-left: 4%;
-    color: maroon;
-}
-
-
-hr {
-    margin-top: 5%;
-    margin-left: 4%;
-    margin-right: 4%;
-    color: lightgrey;
-}
-
-table {
+.col-1 {
     text-align: center;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 2%;
-    width: 90%;
+    width: 49%;
+    display: inline-block;
 }
 
-th {
-    width: 45%;
+.col-2 {
     text-align: center;
-
+    width: 49%;
+    display: inline-block;
+    
 }
