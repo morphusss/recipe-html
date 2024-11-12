@@ -1,0 +1,91 @@
+body {
+    background-color: bisque;
+}
+
+main {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: white;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.photo {
+    max-width: 92%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 15px;
+}
+
+h1 {
+    margin-left: 4%;
+
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 6%;
+    font-size: 14px;
+}
+
+.preparation {
+    border-radius: 15px;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: lightpink;
+    height: 150px;
+}
+
+.Prep {
+    padding-top: 4%;
+    margin-top: 20px;
+    margin-left: 4%;
+    color: blueviolet;
+}
+
+.Prep_table {
+    margin-right: 4%;
+    margin-top: 2%;
+    font-size: 14px;
+    padding-bottom: 2%;
+}
+
+li {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 6%;
+    font-size: 14px;
+}
+
+h2 {
+    margin-left: 4%;
+    color: maroon;
+}
+
+
+hr {
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: lightgrey;
+}
+
+table {
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    width: 90%;
+}
+
+th {
+    width: 45%;
+    text-align: center;
+
+}
